@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-06-30",
   "items": {
     "driver": [
       {
@@ -698,7 +698,7 @@
       {
         "id": "2.7.1",
         "name": "DXVK 2.7.1",
-        "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/dxwrapper/dxvk-2.7.1.tzst",
+        "url": "https://downloads.gamenative.app/dxwrapper/dxvk-2.7.1.tzst",
         "variant": "bionic"
       },
       {
@@ -820,7 +820,7 @@
       {
         "id": "proton-10.0-arm64ec-2",
         "name": "Proton 10.0 ARM64ec",
-        "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/proton-10.0-arm64ec.wcp",
+        "url": "https://downloads.gamenative.app/proton-10.0-arm64ec.wcp",
         "variant": "bionic"
       },
       {
@@ -832,7 +832,7 @@
       {
         "id": "proton-10.0-4-arm64ec-1",
         "name": "Proton 10.0-4 ARM64ec",
-        "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/proton-10.0-4-arm64ec.wcp",
+        "url": "https://downloads.gamenative.app/proton-10.0-4-arm64ec.wcp",
         "variant": "bionic"
       },
       {
@@ -844,7 +844,7 @@
       {
         "id": "proton-11.0-1-arm64ec-1",
         "name": "Proton 11.0-1 ARM64ec",
-        "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/proton-11.0-1-arm64ec.wcp",
+        "url": "https://downloads.gamenative.app/proton-11.0-1-arm64ec.wcp",
         "variant": "bionic"
       }
     ],
@@ -912,7 +912,7 @@
       {
         "id": "3.0b",
         "name": "VKD3D 3.0b",
-        "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/dxwrapper/vkd3d-3.0b.tzst",
+        "url": "https://downloads.gamenative.app/dxwrapper/vkd3d-3.0b.tzst",
         "variant": "bionic"
       },
       {

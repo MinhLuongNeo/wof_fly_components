@@ -25,8 +25,8 @@ thì đổi tên.
 
 - `files.json` — từng file: tag, tên, kích thước, SHA-256, URL nguồn và URL ở đây.
 - `sha256sums.txt` — kiểm bằng `cd releases && shasum -a 256 -c ../sha256sums.txt`.
-- `manifest.json` — danh mục theo đúng schema app đọc (`ManifestData`), chỉ giữ mục có file trong kho này
-  (URL đã đổi sang GitHub) và mục vốn đã nằm trên github.com.
+- `manifest.json` — danh mục theo đúng schema app đọc (`ManifestData`): nguyên mọi mục của danh mục gốc
+  GameNative (`tools/upstream-manifest.json`), mục nào có file trong kho này thì URL trỏ về đây, còn lại giữ nguồn cũ.
 - `tools/files.txt` — danh sách `tag<TAB>đường dẫn trên máy chủ`. Thêm gói thì thêm dòng ở đây.
 - `tools/fetch.sh` — tải mọi dòng trong `files.txt` vào `releases/<tag>/`, tải tiếp nếu dở, bỏ qua nếu đủ.
 - `tools/make-manifest.py` — sinh ba file trên cùng `tools/release-commands.sh`.

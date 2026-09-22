@@ -41,7 +41,7 @@ def sha256(path):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--upstream", default=os.path.join(ROOT, "..", "wof_droid", "game_native_source_code", "manifest.json"))
+    ap.add_argument("--upstream", default=os.path.join(ROOT, "tools", "upstream-manifest.json"))
     args = ap.parse_args()
 
     rows = read_list(os.path.join(ROOT, "tools", "files.txt"))
@@ -77,9 +77,10 @@ def main():
         out.write("\n")
 
     # manifest.json theo đúng schema app đọc (ManifestData: version, updatedAt, items{loại: [id, name, url, variant, arch]}).
-    # Giữ mục nào mà file của nó có trong kho này (URL đổi sang GitHub), và mục vốn đã ở github.com (giữ nguyên).
+    # Giữ NGUYÊN mọi mục của danh mục gốc (tools/upstream-manifest.json) để giao diện app không mất lựa chọn nào;
+    # mục nào có file trong kho này thì URL đổi sang GitHub, còn lại vẫn trỏ về nguồn cũ.
     items = {}
-    kept = dropped = 0
+    rewritten = kept = 0
     if os.path.isfile(args.upstream):
         with open(args.upstream, encoding="utf-8") as f:
             upstream = json.load(f)
@@ -88,17 +89,17 @@ def main():
                 url = e.get("url", "")
                 if url in by_source:
                     e = dict(e, url=by_source[url]["url"])
-                elif not url.startswith("https://github.com/"):
-                    dropped += 1
-                    continue
+                    rewritten += 1
+                else:
+                    kept += 1
                 items.setdefault(kind, []).append(e)
-                kept += 1
     else:
-        print(f"Không thấy danh mục gốc ở {args.upstream}; manifest.json chỉ có phần tự ghi", file=sys.stderr)
+        print(f"Không thấy danh mục gốc ở {args.upstream}", file=sys.stderr)
+        sys.exit(1)
     with open(os.path.join(ROOT, "manifest.json"), "w", encoding="utf-8") as out:
         json.dump({"version": 1, "updatedAt": today, "items": items}, out, ensure_ascii=False, indent=2)
         out.write("\n")
-    print(f"manifest.json: giữ {kept} mục, bỏ {dropped} mục chưa có trong kho", file=sys.stderr)
+    print(f"manifest.json: {rewritten} mục trỏ về kho này, {kept} mục giữ nguồn cũ", file=sys.stderr)
 
     tags = []
     for f in files:
