@@ -1,0 +1,310 @@
+{
+  "updatedAt": "2026-09-22",
+  "releaseBase": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download",
+  "files": [
+    {
+      "tag": "root",
+      "name": "imagefs_bionic.txz",
+      "size": 183506500,
+      "sha256": "368db62bfc58b72c97e5169bda9aa64d4246f07964c447e27c79a065e7e9c48b",
+      "source": "https://downloads.gamenative.app/imagefs_bionic.txz",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/imagefs_bionic.txz"
+    },
+    {
+      "tag": "root",
+      "name": "experimental-drm-20260116.tzst",
+      "size": 13961692,
+      "sha256": "0d40e7a0f39054d89bfb7e7a641cf715fd2662abae387ddaddc42d38ffbaf191",
+      "source": "https://downloads.gamenative.app/experimental-drm-20260116.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/experimental-drm-20260116.tzst"
+    },
+    {
+      "tag": "root",
+      "name": "steam.tzst",
+      "size": 195624656,
+      "sha256": "931ac24c6f3350ea791d158a943998247a1e972589688231c7cff11b7e7f5f6f",
+      "source": "https://downloads.gamenative.app/steam.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/steam.tzst"
+    },
+    {
+      "tag": "root",
+      "name": "proton-10.0-arm64ec.wcp",
+      "size": 262671004,
+      "sha256": "c1638b1f830304222660e338bc032099145ad210d4e36a07d91f39c750a062f7",
+      "source": "https://downloads.gamenative.app/proton-10.0-arm64ec.wcp",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/proton-10.0-arm64ec.wcp"
+    },
+    {
+      "tag": "root",
+      "name": "proton-10.0-4-arm64ec.wcp",
+      "size": 270848000,
+      "sha256": "63aaa3d91ace89b91a7c3f4a6473c11938e1f44f79afa0e186d044e227c859ec",
+      "source": "https://downloads.gamenative.app/proton-10.0-4-arm64ec.wcp",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/proton-10.0-4-arm64ec.wcp"
+    },
+    {
+      "tag": "root",
+      "name": "proton-11.0-1-arm64ec.wcp",
+      "size": 276851384,
+      "sha256": "be248bf8baf354c4426f997605c6b78debbc93b091a3be3339c1bbc2176b596f",
+      "source": "https://downloads.gamenative.app/proton-11.0-1-arm64ec.wcp",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/proton-11.0-1-arm64ec.wcp"
+    },
+    {
+      "tag": "root",
+      "name": "lsteamclient-arm64ec-proton10.tzst",
+      "size": 5831443,
+      "sha256": "69fb6ee7fc62cb5932880c52e326cf818f704a4cd8596022c329a13da3dc7cc9",
+      "source": "https://downloads.gamenative.app/lsteamclient-arm64ec-proton10.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/lsteamclient-arm64ec-proton10.tzst"
+    },
+    {
+      "tag": "root",
+      "name": "lsteamclient-arm64ec-proton11.tzst",
+      "size": 5871249,
+      "sha256": "1413e26f1e93521465c79048e3d0449b2d42fb8afaf668d413dd38cbe87aab4c",
+      "source": "https://downloads.gamenative.app/lsteamclient-arm64ec-proton11.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/lsteamclient-arm64ec-proton11.tzst"
+    },
+    {
+      "tag": "container_files",
+      "name": "extras.tzst",
+      "size": 85987690,
+      "sha256": "d47d2c0e12f4f59beb3e4a80ed9e7373a15fc7cc796d406fd6f18d0f58249184",
+      "source": "https://downloads.gamenative.app/container_files/extras.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/container_files/extras.tzst"
+    },
+    {
+      "tag": "container_files",
+      "name": "container_pattern_common_20260821.tzst",
+      "size": 41592095,
+      "sha256": "c62311ac7a10a149f33cd1b2fcdf9f79c8a6b35d8b46066b33108c003b7e85c6",
+      "source": "https://downloads.gamenative.app/container_files/container_pattern_common_20260821.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/container_files/container_pattern_common_20260821.tzst"
+    },
+    {
+      "tag": "container_files",
+      "name": "container_pattern_gamenative.tzst",
+      "size": 9932192,
+      "sha256": "f19a9e7280df753c0ea197ca8aaee46aa31de9ee2d7e59de3a5870132d0001fd",
+      "source": "https://downloads.gamenative.app/container_files/container_pattern_gamenative.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/container_files/container_pattern_gamenative.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "vortek-2.1.tzst",
+      "size": 120123,
+      "sha256": "b81e4751b093a4bdb8963cbc8210e89b5b627907c3500e2b2dc3de7d002fb251",
+      "source": "https://downloads.gamenative.app/graphics_driver/vortek-2.1.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/vortek-2.1.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "zink-22.2.5.tzst",
+      "size": 3701982,
+      "sha256": "5231f32412a9d9737f90b464cf098d84e9d93283ba513d8ff30a84f26a3da669",
+      "source": "https://downloads.gamenative.app/graphics_driver/zink-22.2.5.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/zink-22.2.5.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "turnip-25.2.0.tzst",
+      "size": 2184899,
+      "sha256": "d4b4762beda16be7dbd9f29f0bb0770e736465faf158435a003937d25081fca8",
+      "source": "https://downloads.gamenative.app/graphics_driver/turnip-25.2.0.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/turnip-25.2.0.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "turnip-25.3.0.tzst",
+      "size": 2221157,
+      "sha256": "aafacd43656d43908510516c7fbc1fb343dfb9fb77e87113749550fb5e51ffb6",
+      "source": "https://downloads.gamenative.app/graphics_driver/turnip-25.3.0.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/turnip-25.3.0.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "wrapper-gamenative-20260724.tzst",
+      "size": 747871,
+      "sha256": "1a546621cf285b50a6de47aeb0ada4a298d41ac24fc5ca2cdc46673859056d37",
+      "source": "https://downloads.gamenative.app/graphics_driver/wrapper-gamenative-20260724.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/wrapper-gamenative-20260724.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "libvulkan_wrapper.tar.xz",
+      "size": 3103336,
+      "sha256": "e634370220234bdd3c1f89c34cf3bca514c5c38d8784e64e4ce07d90da686e58",
+      "source": "https://downloads.gamenative.app/graphics_driver/libvulkan_wrapper.tar.xz",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/libvulkan_wrapper.tar.xz"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "extra_libs.tzst",
+      "size": 21229475,
+      "sha256": "5e42e95bc79f098f22822cdee25a21099e585536db01927216ea30a6eb7ca27f",
+      "source": "https://downloads.gamenative.app/graphics_driver/extra_libs.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/extra_libs.tzst"
+    },
+    {
+      "tag": "dxwrapper",
+      "name": "dxvk-2.7.1.tzst",
+      "size": 4768366,
+      "sha256": "0255396bbedeec6d39e2192e2a3f8b2b9c1aa7efdfb5e445782bf10698bc0652",
+      "source": "https://downloads.gamenative.app/dxwrapper/dxvk-2.7.1.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/dxwrapper/dxvk-2.7.1.tzst"
+    },
+    {
+      "tag": "dxwrapper",
+      "name": "vkd3d-3.0b.tzst",
+      "size": 3978975,
+      "sha256": "fdace3d5894af70f119e17baad44c96885387a0e333c419b94157efedd78185d",
+      "source": "https://downloads.gamenative.app/dxwrapper/vkd3d-3.0b.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/dxwrapper/vkd3d-3.0b.tzst"
+    },
+    {
+      "tag": "wincomponents",
+      "name": "direct3d.tzst",
+      "size": 31207067,
+      "sha256": "149d55436e050bfa3fe8caf650cb97ddb2bc9fa99cd96869bd2bc4977b708fb5",
+      "source": "https://downloads.gamenative.app/wincomponents/direct3d.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/wincomponents/direct3d.tzst"
+    },
+    {
+      "tag": "wincomponents",
+      "name": "directsound.tzst",
+      "size": 434853,
+      "sha256": "72f0e880eef1387a55602ac02b07ef26778d23c2f70d931bd2d13e92f8dc99d4",
+      "source": "https://downloads.gamenative.app/wincomponents/directsound.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/wincomponents/directsound.tzst"
+    },
+    {
+      "tag": "wincomponents",
+      "name": "directmusic.tzst",
+      "size": 337109,
+      "sha256": "eb906732d14766641edfae0b2d722c36f4632de7fa321a5844037115b513b77e",
+      "source": "https://downloads.gamenative.app/wincomponents/directmusic.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/wincomponents/directmusic.tzst"
+    },
+    {
+      "tag": "wincomponents",
+      "name": "directshow.tzst",
+      "size": 2209278,
+      "sha256": "aa682b7ee6e5903e4571bfe5a8dc9b05d0a9f05cd860cfdc810f2ddd3745e9b4",
+      "source": "https://downloads.gamenative.app/wincomponents/directshow.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/wincomponents/directshow.tzst"
+    },
+    {
+      "tag": "wincomponents",
+      "name": "directplay.tzst",
+      "size": 429728,
+      "sha256": "70eb81449230af66286f5b4d5922dca13057600c35d4cdfe91930e966c2386d9",
+      "source": "https://downloads.gamenative.app/wincomponents/directplay.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/wincomponents/directplay.tzst"
+    },
+    {
+      "tag": "wincomponents",
+      "name": "vcrun2010.tzst",
+      "size": 1038731,
+      "sha256": "9def7b4b5c31c839d155f05e372e0e9ce4968b57f815c1abf93b7735e7d0ceb7",
+      "source": "https://downloads.gamenative.app/wincomponents/vcrun2010.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/wincomponents/vcrun2010.tzst"
+    },
+    {
+      "tag": "wincomponents",
+      "name": "wmdecoder.tzst",
+      "size": 1717472,
+      "sha256": "a2ca365cc43265680ee71a7b13a4626ed02368feec135571fb841c7b4abf62d1",
+      "source": "https://downloads.gamenative.app/wincomponents/wmdecoder.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/wincomponents/wmdecoder.tzst"
+    },
+    {
+      "tag": "wincomponents",
+      "name": "opengl.tzst",
+      "size": 8170693,
+      "sha256": "efe27f0de6a55bfb6c2e9eab79b6baaae64b35af81ce49c097de6b720f258cbb",
+      "source": "https://downloads.gamenative.app/wincomponents/opengl.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/wincomponents/opengl.tzst"
+    },
+    {
+      "tag": "wincomponents",
+      "name": "openal.tzst",
+      "size": 6272189,
+      "sha256": "5e849dd182eb7361624804d508b52713dcbf8f203355e062a5928b843b3b4a47",
+      "source": "https://downloads.gamenative.app/wincomponents/openal.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/wincomponents/openal.tzst"
+    },
+    {
+      "tag": "wincomponents",
+      "name": "xaudio.tzst",
+      "size": 2329991,
+      "sha256": "2f80fd6242136b543ee2e1c8fb7daa9c0bcd0c318886ca502f84f456c83bbc43",
+      "source": "https://downloads.gamenative.app/wincomponents/xaudio.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/wincomponents/xaudio.tzst"
+    },
+    {
+      "tag": "wincomponents",
+      "name": "ddraw.tzst",
+      "size": 166133,
+      "sha256": "eabb2d59ce7060767996d0c9597ee8772059126a3af01698e59a5e7905e49867",
+      "source": "https://downloads.gamenative.app/wincomponents/ddraw.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/wincomponents/ddraw.tzst"
+    },
+    {
+      "tag": "core_drivers",
+      "name": "SD8Elite_800.51.zip",
+      "size": 15935994,
+      "sha256": "774af41a2d993f5e6f8095952a94ddb13f66eee3be6e801e3c707b8146297fd0",
+      "source": "https://downloads.gamenative.app/core_drivers/SD8Elite_800.51.zip",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/core_drivers/SD8Elite_800.51.zip"
+    },
+    {
+      "tag": "core_drivers",
+      "name": "SD8Elite_2-842.6.zip",
+      "size": 13253104,
+      "sha256": "4b6ee8eeac109800cea5cc05ae73e9f6a03acbd99c029c328c34faa9b44ae430",
+      "source": "https://downloads.gamenative.app/core_drivers/SD8Elite_2-842.6.zip",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/core_drivers/SD8Elite_2-842.6.zip"
+    },
+    {
+      "tag": "root",
+      "name": "steam-token.tzst",
+      "size": 10972,
+      "sha256": "985fc98e4d009cb6ef7ab43da9c95850a560440b6f288934bba2e44d59c91834",
+      "source": "https://downloads.gamenative.app/steam-token.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/steam-token.tzst"
+    },
+    {
+      "tag": "root",
+      "name": "steamclient-dlls-20260619.tzst",
+      "size": 14378207,
+      "sha256": "68ea79859976e58788a3fafc6cd9d7ae4c3565ce7466a40f1be83330bf515c59",
+      "source": "https://downloads.gamenative.app/steamclient-dlls-20260619.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/steamclient-dlls-20260619.tzst"
+    },
+    {
+      "tag": "root",
+      "name": "steam.exe",
+      "size": 176128,
+      "sha256": "e90759850d86657ab12252e1af0bae0345b8f13e0aa6fbe0bfef9678867d595d",
+      "source": "https://downloads.gamenative.app/steam.exe",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/steam.exe"
+    },
+    {
+      "tag": "root",
+      "name": "steam-proton11.exe",
+      "size": 176128,
+      "sha256": "2420ddf6fc0c76f78c0b4be0ec89fff190ba315e331a8bbe6f93263b105f1768",
+      "source": "https://downloads.gamenative.app/steam-proton11.exe",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/steam-proton11.exe"
+    },
+    {
+      "tag": "root",
+      "name": "cacert.pem",
+      "size": 226168,
+      "sha256": "b6e66569cc3d438dd5abe514d0df50005d570bfc96c14dca8f768d020cb96171",
+      "source": "https://downloads.gamenative.app/cacert.pem",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/cacert.pem"
+    }
+  ]
+}
