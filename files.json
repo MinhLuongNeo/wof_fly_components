@@ -1337,6 +1337,390 @@
       "sha256": "f074efb7152aa2278e9831b106e58c11f01494000c0c0a1af2aea865c5a6d841",
       "source": "https://downloads.gamenative.app/drivers/turnip_24.2.0_R19.zip",
       "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/drivers/turnip_24.2.0_R19.zip"
+    },
+    {
+      "tag": "container_files",
+      "name": "proton-9.0-arm64ec_container_pattern.tzst",
+      "size": 10309411,
+      "sha256": "9826ac61405f641ca8326335208c3e1ed5cec107f4b0354f813825ec398b841b",
+      "source": "https://downloads.gamenative.app/container_files/proton-9.0-arm64ec_container_pattern.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/container_files/proton-9.0-arm64ec_container_pattern.tzst"
+    },
+    {
+      "tag": "container_files",
+      "name": "proton-9.0-x86_64_container_pattern.tzst",
+      "size": 8698674,
+      "sha256": "fa25987a3ba4f1b951bd1161f9a65a9450f0b72b87583fd3d9971d92c63a9608",
+      "source": "https://downloads.gamenative.app/container_files/proton-9.0-x86_64_container_pattern.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/container_files/proton-9.0-x86_64_container_pattern.tzst"
+    },
+    {
+      "tag": "core_drivers",
+      "name": "Adreno_805_adpkg.zip",
+      "size": 12757906,
+      "sha256": "7eebc20b44f10d84f68d2ebd0eaa27e29750640308a51472ea9c7797edf0d823",
+      "source": "https://downloads.gamenative.app/core_drivers/Adreno_805_adpkg.zip",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/core_drivers/Adreno_805_adpkg.zip"
+    },
+    {
+      "tag": "core_drivers",
+      "name": "Adreno_819.2_adpkg.zip",
+      "size": 13082749,
+      "sha256": "d0c3ea86f4b681bd53a940a0fd8c2220345c5140c525d1e1af6cdcfe25f4d3e1",
+      "source": "https://downloads.gamenative.app/core_drivers/Adreno_819.2_adpkg.zip",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/core_drivers/Adreno_819.2_adpkg.zip"
+    },
+    {
+      "tag": "core_drivers",
+      "name": "SD8Elite_800.35.zip",
+      "size": 16559176,
+      "sha256": "1852a2655da8dce7018fa4a208decd565a130b392ddabdee62f9b75229e1f64f",
+      "source": "https://downloads.gamenative.app/core_drivers/SD8Elite_800.35.zip",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/core_drivers/SD8Elite_800.35.zip"
+    },
+    {
+      "tag": "dxwrapper",
+      "name": "d8vk-1.0.tzst",
+      "size": 1128672,
+      "sha256": "5e18deb3deedc937dad9974013c2039f8110f9baf6a520c4310ec888d8a59511",
+      "source": "https://downloads.gamenative.app/dxwrapper/d8vk-1.0.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/dxwrapper/d8vk-1.0.tzst"
+    },
+    {
+      "tag": "dxwrapper",
+      "name": "dxvk-1.10.1.tzst",
+      "size": 6724726,
+      "sha256": "a1de22b82bdec1a0dabb9d52084b3d542d305327059300aa01073f43ebd24ecc",
+      "source": "https://downloads.gamenative.app/dxwrapper/dxvk-1.10.1.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/dxwrapper/dxvk-1.10.1.tzst"
+    },
+    {
+      "tag": "dxwrapper",
+      "name": "dxvk-1.10.3.tzst",
+      "size": 7544894,
+      "sha256": "b337191462864958fab9d9bff2b1760a263ee330ce98b81aa59c478e795c2394",
+      "source": "https://downloads.gamenative.app/dxwrapper/dxvk-1.10.3.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/dxwrapper/dxvk-1.10.3.tzst"
+    },
+    {
+      "tag": "dxwrapper",
+      "name": "dxvk-1.10.9-sarek.tzst",
+      "size": 3696389,
+      "sha256": "1fdcb03b08eacb2852b4c8bb2345f47b61228f05017d5dff4287431b703aab59",
+      "source": "https://downloads.gamenative.app/dxwrapper/dxvk-1.10.9-sarek.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/dxwrapper/dxvk-1.10.9-sarek.tzst"
+    },
+    {
+      "tag": "dxwrapper",
+      "name": "dxvk-1.11.1-sarek.tzst",
+      "size": 3645431,
+      "sha256": "ce37f7d779e1f9ec51bc01997a7bedc31ad5e5c16f96c26840f9389f034fe3f2",
+      "source": "https://downloads.gamenative.app/dxwrapper/dxvk-1.11.1-sarek.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/dxwrapper/dxvk-1.11.1-sarek.tzst"
+    },
+    {
+      "tag": "dxwrapper",
+      "name": "dxvk-1.9.2.tzst",
+      "size": 3338221,
+      "sha256": "c535a7376e404267011bb633f8c32c4b76ba9866fed72090a71ebd08bd2177e9",
+      "source": "https://downloads.gamenative.app/dxwrapper/dxvk-1.9.2.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/dxwrapper/dxvk-1.9.2.tzst"
+    },
+    {
+      "tag": "dxwrapper",
+      "name": "dxvk-2.4.1-gplasync.tzst",
+      "size": 9131308,
+      "sha256": "7684a19e733310f9e3613a5ecd3443edb97c2d8c8a0e5db0d682887153e5058d",
+      "source": "https://downloads.gamenative.app/dxwrapper/dxvk-2.4.1-gplasync.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/dxwrapper/dxvk-2.4.1-gplasync.tzst"
+    },
+    {
+      "tag": "dxwrapper",
+      "name": "dxvk-2.4.1.tzst",
+      "size": 9121924,
+      "sha256": "f827bf18ef42d90be4637a987226453e392386a1a6ff160c13d3df52a62f2522",
+      "source": "https://downloads.gamenative.app/dxwrapper/dxvk-2.4.1.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/dxwrapper/dxvk-2.4.1.tzst"
+    },
+    {
+      "tag": "dxwrapper",
+      "name": "dxvk-2.6.1-gplasync.tzst",
+      "size": 4740600,
+      "sha256": "b397293f0018a063fde5ec67030d44461e67606c645e9b81bfd845c5177fe158",
+      "source": "https://downloads.gamenative.app/dxwrapper/dxvk-2.6.1-gplasync.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/dxwrapper/dxvk-2.6.1-gplasync.tzst"
+    },
+    {
+      "tag": "dxwrapper",
+      "name": "dxvk-async-1.10.3.tzst",
+      "size": 10075341,
+      "sha256": "6c60805d22386b623eb87255e9f7b97759e3df69924f707cd8516f27945bab6e",
+      "source": "https://downloads.gamenative.app/dxwrapper/dxvk-async-1.10.3.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/dxwrapper/dxvk-async-1.10.3.tzst"
+    },
+    {
+      "tag": "dxwrapper",
+      "name": "vkd3d-2.12.tzst",
+      "size": 2140490,
+      "sha256": "ea1411f26b529cd4c6f3322ede1ab753273c8321258605dbf94789785c081946",
+      "source": "https://downloads.gamenative.app/dxwrapper/vkd3d-2.12.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/dxwrapper/vkd3d-2.12.tzst"
+    },
+    {
+      "tag": "dxwrapper",
+      "name": "vkd3d-2.13.tzst",
+      "size": 2134905,
+      "sha256": "cd2862aadb58371954c35465d5005b5fcd55b8c96c75a79bbc58d44d54edada1",
+      "source": "https://downloads.gamenative.app/dxwrapper/vkd3d-2.13.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/dxwrapper/vkd3d-2.13.tzst"
+    },
+    {
+      "tag": "dxwrapper",
+      "name": "vkd3d-2.14.1.tzst",
+      "size": 2352920,
+      "sha256": "b17d32de8178201f15a49ac5cd137778f8477c7fe75343963e2158b86a8159ba",
+      "source": "https://downloads.gamenative.app/dxwrapper/vkd3d-2.14.1.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/dxwrapper/vkd3d-2.14.1.tzst"
+    },
+    {
+      "tag": "dxwrapper",
+      "name": "vkd3d-2.6.tzst",
+      "size": 1805143,
+      "sha256": "664a463df6ac8bf433f8ef6030dbf31de33b760fc722bb9666b79c22b5e64f25",
+      "source": "https://downloads.gamenative.app/dxwrapper/vkd3d-2.6.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/dxwrapper/vkd3d-2.6.tzst"
+    },
+    {
+      "tag": "root",
+      "name": "extras.tzst",
+      "size": 84503365,
+      "sha256": "f57aa402a53b5354e74d2651bcc8f7e9129648414f1791f4be541f559658bbe7",
+      "source": "https://downloads.gamenative.app/extras.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/extras.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "adrenotools-Turnip_Gen8_V25.tzst",
+      "size": 2529392,
+      "sha256": "b8c33c0feae648c0c73533000ed17efdcb653d7dce06a0a5c8d7d0f58b9a0e44",
+      "source": "https://downloads.gamenative.app/graphics_driver/adrenotools-Turnip_Gen8_V25.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/adrenotools-Turnip_Gen8_V25.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "adrenotools-turnip25.1.0.tzst",
+      "size": 2593869,
+      "sha256": "b3824227a3bcac367352bae86a34ed95add9b99fae50c16b7c7f48506d7ce197",
+      "source": "https://downloads.gamenative.app/graphics_driver/adrenotools-turnip25.1.0.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/adrenotools-turnip25.1.0.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "adrenotools-turnip25.3.0_R11.tzst",
+      "size": 3137612,
+      "sha256": "2af295136d29ee40cd3b6e3584d4b0036f9fd091c039a14656bb4bd11cb76cd5",
+      "source": "https://downloads.gamenative.app/graphics_driver/adrenotools-turnip25.3.0_R11.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/adrenotools-turnip25.3.0_R11.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "adrenotools-turnip25.3.0_R3_Auto.tzst",
+      "size": 2394849,
+      "sha256": "b27993507f70cac00cbc9c266f8574c0f47d74642eaaa0a22ac0ad5c3ea2a594",
+      "source": "https://downloads.gamenative.app/graphics_driver/adrenotools-turnip25.3.0_R3_Auto.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/adrenotools-turnip25.3.0_R3_Auto.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "adrenotools-turnip25.3.0_R3_Gmem.tzst",
+      "size": 2392378,
+      "sha256": "1d759224be7a2666f12e2f0d0491224507e484bbda26122ee1c213db8dd3b0dd",
+      "source": "https://downloads.gamenative.app/graphics_driver/adrenotools-turnip25.3.0_R3_Gmem.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/adrenotools-turnip25.3.0_R3_Gmem.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "adrenotools-turnip25.3.0_R6_Gmem.tzst",
+      "size": 2402808,
+      "sha256": "56977970269fc06149d44f542b36ec3d2c55b1594dffa968a4facc35d25dea8c",
+      "source": "https://downloads.gamenative.app/graphics_driver/adrenotools-turnip25.3.0_R6_Gmem.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/adrenotools-turnip25.3.0_R6_Gmem.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "adrenotools-turnip26.0.0_R4.tzst",
+      "size": 3211505,
+      "sha256": "ed1104cbf4387e28638c52959c651f6302fc515761289e104ab2953977bd1ba4",
+      "source": "https://downloads.gamenative.app/graphics_driver/adrenotools-turnip26.0.0_R4.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/adrenotools-turnip26.0.0_R4.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "adrenotools-turnip26.0.0_R8.tzst",
+      "size": 2618849,
+      "sha256": "a79e67a397f94e8e809676c7753580db77b390b7f7631368256af33d0654cd11",
+      "source": "https://downloads.gamenative.app/graphics_driver/adrenotools-turnip26.0.0_R8.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/adrenotools-turnip26.0.0_R8.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "adrenotools-v762.tzst",
+      "size": 16492574,
+      "sha256": "c786b45d7f02310c7c348e55f151cc822b0468a14110ec6c0abfaa493f323e08",
+      "source": "https://downloads.gamenative.app/graphics_driver/adrenotools-v762.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/adrenotools-v762.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "adrenotools-v805.tzst",
+      "size": 12237321,
+      "sha256": "81ff78581eb9acc3d6f10c1688ea30a05bec07e17627497232dd60a215c5ba37",
+      "source": "https://downloads.gamenative.app/graphics_driver/adrenotools-v805.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/adrenotools-v805.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "turnip-24.1.0.tzst",
+      "size": 1656806,
+      "sha256": "4ffe69bc9071871ee7719911b0ecb2f7ba4f3e43d0f80db77cd39d2bfaf76334",
+      "source": "https://downloads.gamenative.app/graphics_driver/turnip-24.1.0.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/turnip-24.1.0.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "turnip-25.0.0.tzst",
+      "size": 1923236,
+      "sha256": "783cb1f0ae481fa79afaefd4c421d68ca13f8ce46a34367e93c678cc2befe696",
+      "source": "https://downloads.gamenative.app/graphics_driver/turnip-25.0.0.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/turnip-25.0.0.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "turnip-25.1.0.tzst",
+      "size": 1948462,
+      "sha256": "e4cfac45d4064da80c5a0c501d5237e85c2492a9da39e404c0cb31e1a609939b",
+      "source": "https://downloads.gamenative.app/graphics_driver/turnip-25.1.0.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/turnip-25.1.0.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "virgl-23.1.9.tzst",
+      "size": 3324475,
+      "sha256": "6ed76575a24894432fa43e03e98ca1273bd1d1e393587bc53f7d8ca5bf36311f",
+      "source": "https://downloads.gamenative.app/graphics_driver/virgl-23.1.9.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/virgl-23.1.9.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "vortek-2.0.tzst",
+      "size": 115516,
+      "sha256": "e32dc285600dfb30f3682cc29603348ddb231f45247f93ecf799939778ee292a",
+      "source": "https://downloads.gamenative.app/graphics_driver/vortek-2.0.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/vortek-2.0.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "wrapper-leegao.tzst",
+      "size": 2365265,
+      "sha256": "e0345e81db8893aa7882869583cd970d532cf3e92c0a1e87a9aba366b46a5da9",
+      "source": "https://downloads.gamenative.app/graphics_driver/wrapper-leegao.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/wrapper-leegao.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "wrapper-legacy.tzst",
+      "size": 5725821,
+      "sha256": "9e5b2539c1b86afdfd8c144a165cfa03b9c500fe0d82ae6216a6859c00bf460f",
+      "source": "https://downloads.gamenative.app/graphics_driver/wrapper-legacy.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/wrapper-legacy.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "wrapper-v2.tzst",
+      "size": 5435191,
+      "sha256": "68bfa91d88d374b67a7dbc2079afbf243f42f1c7d5dffd0c84a7a276c94f4526",
+      "source": "https://downloads.gamenative.app/graphics_driver/wrapper-v2.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/wrapper-v2.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "wrapper.tzst",
+      "size": 3795109,
+      "sha256": "2005169d30ab7558b0c404ff8a3d781cddfde2f012531e097ccc95c423a706a5",
+      "source": "https://downloads.gamenative.app/graphics_driver/wrapper.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/wrapper.tzst"
+    },
+    {
+      "tag": "graphics_driver",
+      "name": "zink_dlls.tzst",
+      "size": 8170693,
+      "sha256": "efe27f0de6a55bfb6c2e9eab79b6baaae64b35af81ce49c097de6b720f258cbb",
+      "source": "https://downloads.gamenative.app/graphics_driver/zink_dlls.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/graphics_driver/zink_dlls.tzst"
+    },
+    {
+      "tag": "root",
+      "name": "imagefs_gamenative.txz",
+      "size": 166439388,
+      "sha256": "3c16c82a1948d3804de45e75c41ff455f1a393a36349af90eae06fd5b93d248b",
+      "source": "https://downloads.gamenative.app/imagefs_gamenative.txz",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/imagefs_gamenative.txz"
+    },
+    {
+      "tag": "root",
+      "name": "imagefs_patches_gamenative.tzst",
+      "size": 187234448,
+      "sha256": "f0c1b5843fb1f7c2c60665ab0bfd1bd7656021196a78916f6762681e12b0f9f7",
+      "source": "https://downloads.gamenative.app/imagefs_patches_gamenative.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/imagefs_patches_gamenative.tzst"
+    },
+    {
+      "tag": "root",
+      "name": "lsteamclient-arm64ec-proton9.tzst",
+      "size": 1212095,
+      "sha256": "bd3649f3c337c059bd8c656c157e0f39c8d1650a405296f7cd783dfee0a4331e",
+      "source": "https://downloads.gamenative.app/lsteamclient-arm64ec-proton9.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/lsteamclient-arm64ec-proton9.tzst"
+    },
+    {
+      "tag": "root",
+      "name": "lsteamclient-x86_64-proton10.tzst",
+      "size": 4074390,
+      "sha256": "c878fbc24ad5ccdb3b22a38af3482393b88668847406fc7cb288d09833fe9e65",
+      "source": "https://downloads.gamenative.app/lsteamclient-x86_64-proton10.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/lsteamclient-x86_64-proton10.tzst"
+    },
+    {
+      "tag": "root",
+      "name": "lsteamclient-x86_64-proton11.tzst",
+      "size": 4129926,
+      "sha256": "8a304b3d779187e2f64dcbb9e429291a6933fbf61412466f94e4aeeb5742de2c",
+      "source": "https://downloads.gamenative.app/lsteamclient-x86_64-proton11.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/lsteamclient-x86_64-proton11.tzst"
+    },
+    {
+      "tag": "root",
+      "name": "lsteamclient-x86_64-proton9.tzst",
+      "size": 970782,
+      "sha256": "78f13ff124367d7f46781d75e34d1df7cd1462f80465999448aeb4f1c7743cad",
+      "source": "https://downloads.gamenative.app/lsteamclient-x86_64-proton9.tzst",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/lsteamclient-x86_64-proton9.tzst"
+    },
+    {
+      "tag": "root",
+      "name": "proton-9.0-arm64ec.txz",
+      "size": 76299500,
+      "sha256": "dbdc09e09fb92420b60a3ce5c87ca23fee6021691b92281019fe55c25f49bc57",
+      "source": "https://downloads.gamenative.app/proton-9.0-arm64ec.txz",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/proton-9.0-arm64ec.txz"
+    },
+    {
+      "tag": "root",
+      "name": "proton-9.0-x86_64.txz",
+      "size": 56196308,
+      "sha256": "922155d4a096730390029f72f074d7074f0a5edc7abb13b55a7b10092b0f3a2a",
+      "source": "https://downloads.gamenative.app/proton-9.0-x86_64.txz",
+      "url": "https://github.com/MinhLuongNeo/wof_fly_components/releases/download/root/proton-9.0-x86_64.txz"
     }
   ]
 }
