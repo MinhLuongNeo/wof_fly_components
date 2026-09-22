@@ -1,4 +1,4 @@
-# tag<TAB>đường dẫn trên downloads.gamenative.app
+# tag<TAB>đường dẫn trên downloads.gamenative.app, hoặc URL đầy đủ (file ở nơi khác, ví dụ GitHub của Arihany)
 # tag = tên release trên GitHub, trùng thư mục trên server GameNative; file gốc vào tag "root".
 root	imagefs_bionic.txz
 root	experimental-drm-20260116.tzst
@@ -38,3 +38,19 @@ root	steamclient-dlls-20260619.tzst
 root	steam.exe
 root	steam-proton11.exe
 root	cacert.pem
+drivers	drivers/8Elite-800.51.zip
+drivers	drivers/8Elite2-842.6.zip
+DXVK	https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-2.7.1.wcp
+DXVK	https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-2.6.2.wcp
+DXVK	https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-2.5.3.wcp
+DXVK	https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-2.4.1.wcp
+DXVK	https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-2.4.1-pre-reg.wcp
+DXVK	https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-2.3.1.wcp
+DXVK	https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-1.10.3.wcp
+DXVK-GPLASYNC	https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC/dxvk-gplasync-2.7.1-1.wcp
+DXVK-GPLASYNC	https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC/dxvk-gplasync-2.6.2-1.wcp
+DXVK-GPLASYNC	https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC/dxvk-gplasync-2.5.3-1.wcp
+DXVK-GPLASYNC	https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC/dxvk-gplasync-2.4.1-1.wcp
+DXVK-GPLASYNC	https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC/dxvk-gplasync-2.4.1-1-pre-reg.wcp
+DXVK-GPLASYNC	https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC/dxvk-gplasync-2.3.1-1.wcp
+WOWBOX64	https://github.com/Arihany/WinlatorWCPHub/releases/download/WOWBOX64/wowbox64-0.3.6.wcp

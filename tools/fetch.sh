@@ -9,11 +9,12 @@ BASE="https://downloads.gamenative.app"
 fail=0
 while IFS=$'\t' read -r tag path; do
   [[ -z "${tag:-}" || "$tag" == \#* ]] && continue
+  if [[ "$path" == http://* || "$path" == https://* ]]; then url="$path"; else url="$BASE/$path"; fi
   name="${path##*/}"
   dir="$ROOT/releases/$tag"
   dest="$dir/$name"
   mkdir -p "$dir"
-  expected="$(curl -sIL --max-time 30 "$BASE/$path" | tr -d '\r' | awk 'BEGIN{IGNORECASE=1} /^content-length:/{len=$2} END{print len}')"
+  expected="$(curl -sIL --max-time 30 "$url" | tr -d '\r' | awk 'BEGIN{IGNORECASE=1} /^content-length:/{len=$2} END{print len}')"
   if [[ -z "$expected" ]]; then
     echo "LỖI  $tag/$name: server không trả kích thước"; fail=1; continue
   fi
@@ -21,7 +22,7 @@ while IFS=$'\t' read -r tag path; do
     echo "CÓ   $tag/$name ($expected byte)"; continue
   fi
   echo "TẢI  $tag/$name ($expected byte)"
-  if curl -sS -L --fail --retry 5 --retry-delay 3 -C - -o "$dest" "$BASE/$path"; then
+  if curl -sS -L --fail --retry 5 --retry-delay 3 -C - -o "$dest" "$url"; then
     actual="$(stat -f %z "$dest")"
     if [[ "$actual" != "$expected" ]]; then
       echo "LỖI  $tag/$name: có $actual byte, server nói $expected"; fail=1

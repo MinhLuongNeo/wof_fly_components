@@ -27,7 +27,8 @@ def read_list(path):
             if not line or line.startswith("#"):
                 continue
             tag, src = line.split("\t", 1)
-            rows.append((tag, src, src.rsplit("/", 1)[-1]))
+            source = src if src.startswith(("http://", "https://")) else f"{SOURCE_BASE}/{src}"
+            rows.append((tag, source, src.rsplit("/", 1)[-1]))
     return rows
 
 
@@ -57,7 +58,7 @@ def main():
             "name": name,
             "size": os.path.getsize(local),
             "sha256": sha256(local),
-            "source": f"{SOURCE_BASE}/{src}",
+            "source": src,
             "url": f"{RELEASE_BASE}/{tag}/{name}",
         })
         print(f"{files[-1]['sha256'][:12]}  {tag}/{name}  {files[-1]['size']:>11,d}", file=sys.stderr)
@@ -77,10 +78,10 @@ def main():
         out.write("\n")
 
     # manifest.json theo đúng schema app đọc (ManifestData: version, updatedAt, items{loại: [id, name, url, variant, arch]}).
-    # Giữ NGUYÊN mọi mục của danh mục gốc (tools/upstream-manifest.json) để giao diện app không mất lựa chọn nào;
-    # mục nào có file trong kho này thì URL đổi sang GitHub, còn lại vẫn trỏ về nguồn cũ.
+    # App chỉ tải từ kho này (quyết định 2026-09-22), nên danh mục CHỈ giữ mục có file trong kho — URL đổi sang GitHub;
+    # mục chưa có trong kho bị bỏ (muốn có thì thêm dòng vào tools/files.txt).
     items = {}
-    rewritten = kept = 0
+    kept = dropped = 0
     if os.path.isfile(args.upstream):
         with open(args.upstream, encoding="utf-8") as f:
             upstream = json.load(f)
@@ -88,18 +89,29 @@ def main():
             for e in entries:
                 url = e.get("url", "")
                 if url in by_source:
-                    e = dict(e, url=by_source[url]["url"])
-                    rewritten += 1
-                else:
+                    items.setdefault(kind, []).append(dict(e, url=by_source[url]["url"]))
                     kept += 1
-                items.setdefault(kind, []).append(e)
+                else:
+                    dropped += 1
     else:
         print(f"Không thấy danh mục gốc ở {args.upstream}", file=sys.stderr)
         sys.exit(1)
     with open(os.path.join(ROOT, "manifest.json"), "w", encoding="utf-8") as out:
         json.dump({"version": 1, "updatedAt": today, "items": items}, out, ensure_ascii=False, indent=2)
         out.write("\n")
-    print(f"manifest.json: {rewritten} mục trỏ về kho này, {kept} mục giữ nguồn cũ", file=sys.stderr)
+    print(f"manifest.json: giữ {kept} mục có trong kho, bỏ {dropped} mục", file=sys.stderr)
+
+    # Hai chỉ mục phẳng {tên hiển thị: tên file} cho hộp thoại Wine/Proton manager (component-manifest.json, file ở tag
+    # root, tên bắt đầu bằng proton/wine) và Driver manager (drivers-manifest.json, file ở tag drivers). Cùng định dạng
+    # với chỉ mục gốc của GameNative; app ghép tên file vào kho (root/… hay drivers/…).
+    component = {f["name"].rsplit(".", 1)[0]: f["name"] for f in files
+                 if f["tag"] == "root" and f["name"].lower().startswith(("proton", "wine")) and f["name"].endswith(".wcp")}
+    drivers = {f["name"].rsplit(".", 1)[0]: f["name"] for f in files if f["tag"] == "drivers"}
+    for name, data in (("component-manifest.json", component), ("drivers-manifest.json", drivers)):
+        with open(os.path.join(ROOT, name), "w", encoding="utf-8") as out:
+            json.dump(data, out, ensure_ascii=False, indent=2)
+            out.write("\n")
+        print(f"{name}: {len(data)} mục", file=sys.stderr)
 
     tags = []
     for f in files:
@@ -116,7 +128,7 @@ def main():
             out.write(f'if gh release view "{tag}" >/dev/null 2>&1; then\n')
             out.write(f'  gh release upload "{tag}" {names} --clobber\n')
             out.write("else\n")
-            out.write(f'  gh release create "{tag}" {names} --title "{tag}" --notes "Gói lấy từ {SOURCE_BASE}/{tag if tag != "root" else ""} — xem sha256sums.txt"\n')
+            out.write(f'  gh release create "{tag}" {names} --title "{tag}" --notes "Gói của WOF Fly, nguồn gốc từng file xem files.json, kiểm bằng sha256sums.txt"\n')
             out.write("fi\n\n")
     os.chmod(os.path.join(ROOT, "tools", "release-commands.sh"), 0o755)
     total = sum(f["size"] for f in files)
